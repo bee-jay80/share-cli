@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.so
+
+# Virtual environment (uv manages env automatically)
+.venv/
+.env
+env/
+venv/
+
+# Environment files
+*.env
+.env.*
+
+# uv cache
+.uv/
+uv.lock
+
+# OS junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.tmp
+
+# Logs
+*.log
+logs/
+
+# Build / Packaging
+dist/
+build/
+*.egg-info/
+
+# Local storage for uploaded rooms/files
+backend/tmp/
+tmp/
+share_data/
+
+# Redis dump file (optional)
+dump.rdb
+
+# Docker
+*.pid
+*.tar
+
+# Testing
+.coverage
+coverage.xml
+pytest_cache/
+htmlcov/
+
+# Byte-compiled compiled wheels
+*.whl
+
+# Backup files
+*.bak
+*.orig
+
+# MyPy
+.mypy_cache/
+
+# Ruff / Black
+.ruff_cache/
